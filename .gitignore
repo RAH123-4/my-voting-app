@@ -1,6 +1,10 @@
-*.pyc
-project.lock.json
-bin/
-obj/
-.vs/
-node_modules/
+# Ignore Terraform Keys and State
+*.pem
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Ignore Docker stuff
+__pycache__
+node_modules
